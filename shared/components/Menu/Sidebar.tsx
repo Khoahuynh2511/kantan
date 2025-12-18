@@ -62,7 +62,7 @@ const MobileNavItem = ({ href, icon, isActive, onClick }: MobileNavItemProps) =>
   <Link
     href={href}
     className={clsx(
-      'flex justify-center items-center p-3 rounded-xl text-2xl transition-all duration-250',
+      'flex justify-center items-center p-2 rounded-lg text-xl transition-all duration-250',
       isActive
         ? 'text-[var(--main-color)] bg-[var(--border-color)]'
         : 'text-[var(--secondary-color)] hover:bg-[var(--card-color)]'
@@ -121,8 +121,6 @@ const Sidebar = () => {
     { href: '/achievements', icon: <Trophy />, label: 'Achievements' },
     { href: '/preferences', icon: <Sparkles className={clsx('shrink-0', pathWithoutLocale !== '/preferences' && 'motion-safe:animate-bounce')} />, label: 'Preferences' }
   ];
-
-  const mobileNavItems = navItems.slice(0, 6);
 
   return (
     <>
@@ -196,10 +194,10 @@ const Sidebar = () => {
         className={clsx(
           'lg:hidden fixed bottom-0 left-0 right-0 z-50',
           'bg-[var(--card-color)] border-t-2 border-[var(--border-color)]',
-          'flex justify-evenly items-center py-2'
+          'flex justify-evenly items-center py-1.5 px-1'
         )}
       >
-        {mobileNavItems.map(item => (
+        {navItems.map(item => (
           <MobileNavItem
             key={item.href}
             href={item.href}
