@@ -1,0 +1,35 @@
+{
+  "title": "Diccionario",
+  "description": "Buscar palabras japonesas, kanji y frases",
+  "searchPlaceholder": "Buscar japones, romaji o ingles...",
+  "filters": {
+    "jlpt": "JLPT",
+    "type": "Tipo",
+    "all": "Todo",
+    "commonOnly": "Solo comunes"
+  },
+  "pos": {
+    "noun": "Sust",
+    "verb": "Verbo",
+    "adjective": "Adj",
+    "adverb": "Adv"
+  },
+  "results": {
+    "noResults": "No se encontraron resultados para \"{{query}}\"",
+    "noFilterMatch": "Ningun resultado coincide con tus filtros",
+    "enterWord": "Ingresa una palabra para buscar"
+  },
+  "history": {
+    "title": "Busquedas recientes",
+    "clear": "Limpiar"
+  },
+  "detail": {
+    "otherForms": "Otras formas",
+    "definitions": "Definiciones",
+    "common": "Comun"
+  },
+  "errors": {
+    "fetchFailed": "Error al buscar",
+    "tryAgain": "Por favor intenta de nuevo"
+  }
+}

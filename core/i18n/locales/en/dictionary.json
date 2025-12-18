@@ -1,0 +1,35 @@
+{
+  "title": "Dictionary",
+  "description": "Search Japanese words, kanji, and phrases",
+  "searchPlaceholder": "Search Japanese, romaji, or English...",
+  "filters": {
+    "jlpt": "JLPT",
+    "type": "Type",
+    "all": "All",
+    "commonOnly": "Common only"
+  },
+  "pos": {
+    "noun": "Noun",
+    "verb": "Verb",
+    "adjective": "Adj",
+    "adverb": "Adv"
+  },
+  "results": {
+    "noResults": "No results found for \"{{query}}\"",
+    "noFilterMatch": "No results match your filters",
+    "enterWord": "Enter a word to search"
+  },
+  "history": {
+    "title": "Recent searches",
+    "clear": "Clear"
+  },
+  "detail": {
+    "otherForms": "Other forms",
+    "definitions": "Definitions",
+    "common": "Common"
+  },
+  "errors": {
+    "fetchFailed": "Failed to search",
+    "tryAgain": "Please try again"
+  }
+}

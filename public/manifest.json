@@ -1,0 +1,46 @@
+{
+  "name": "KanTan - Learn Japanese Hiragana, Katakana, Kanji & Vocabulary",
+  "short_name": "KanTan",
+  "description": "Master Japanese with KanTan - an aesthetic, minimalist platform for learning Hiragana, Katakana, Kanji, and Vocabulary. Practice with interactive games and track your progress.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "categories": ["education", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48 32x32 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Kana",
+      "short_name": "Kana",
+      "description": "Practice Hiragana and Katakana",
+      "url": "/kana",
+      "icons": []
+    },
+    {
+      "name": "Kanji",
+      "short_name": "Kanji",
+      "description": "Practice Kanji characters",
+      "url": "/kanji",
+      "icons": []
+    },
+    {
+      "name": "Vocabulary",
+      "short_name": "Vocabulary",
+      "description": "Practice Japanese vocabulary",
+      "url": "/vocabulary",
+      "icons": []
+    }
+  ]
+}

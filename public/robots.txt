@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kantan.com
+
+# Sitemaps
+Sitemap: https://kantan.com/sitemap.xml
