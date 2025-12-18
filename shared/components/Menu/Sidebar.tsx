@@ -90,11 +90,17 @@ const Sidebar = () => {
     if (!hotkeysOn) return;
 
     const handleKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement;
+      const isInputFocused =
+        target.tagName === 'INPUT' ||
+        target.tagName === 'TEXTAREA' ||
+        target.isContentEditable;
+
       if (event.key === 'Escape') {
         escButtonRef.current?.click();
-      } else if (event.key.toLowerCase() === 'h') {
+      } else if (!isInputFocused && event.key.toLowerCase() === 'h') {
         router.push('/');
-      } else if (event.key.toLowerCase() === 'p') {
+      } else if (!isInputFocused && event.key.toLowerCase() === 'p') {
         router.push('/preferences');
       }
     };
