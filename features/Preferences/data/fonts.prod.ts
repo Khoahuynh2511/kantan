@@ -1,4 +1,4 @@
-﻿import {
+import {
   Noto_Sans_JP,
   Zen_Maru_Gothic,
   Rampart_One,
@@ -287,7 +287,8 @@ const wdxlLubrifontJPN = WDXL_Lubrifont_JP_N({
   weight: ['400'],
   display: 'swap',
   preload: false,
-  fallback: ['system-ui', 'sans-serif']
+  fallback: ['system-ui', 'sans-serif'],
+  adjustFontFallback: false
 });
 
 const murecho = Murecho({
